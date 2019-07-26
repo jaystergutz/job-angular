@@ -1,0 +1,6 @@
+<div #box class="box">
+    <ng-content></ng-content>
+</div>
+<a *ngIf="enabled" (click)=" toggle() ">
+    {{opened ? 'Show Less' : 'Show More'}}
+</a>
