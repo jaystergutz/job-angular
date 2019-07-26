@@ -66,7 +66,7 @@ import {
       this.opened = false;
   
       // disable clamp
-      this.box.nativeElement.style['-webkit-line-clamp'] = this.row;
+      this.box.nativeElement.style ['-webkit-line-clamp'] = this.row;
       this.box.nativeElement.style.height = this.boxHeight + 'px';
     }
   }
