@@ -13,6 +13,10 @@ export class AppComponent implements OnInit, OnDestroy {
   private pageTitle: String = "";
   private format: String = "MMM d, y, h:mm:ss a";
 
+  sampleLineClampString = `
+    alskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasdalskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasdalskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasdalskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasdalskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasdalskdjklasjdklasjdlkasjdkla sjdajsldasd asd asadasdasdja sldlkasdlka jsldjasd
+  `;
+
 
   @ViewChild('jobTitle') private jobTitle : ElementRef;
 

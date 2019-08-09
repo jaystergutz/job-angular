@@ -1,6 +1,7 @@
 <div #box class="box">
     <ng-content></ng-content>
 </div>
-<a *ngIf="enabled" (click)=" toggle() ">
-    {{opened ? 'Show Less' : 'Show More'}}
-</a>
+<button *ngIf="enabled" (click)="toggle()" mat-icon-button> <mat-icon>{{opened ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}}</mat-icon> </button>
+<!--<a *ngIf="enabled" (click)=" toggle() ">-->
+<!--    {{opened ? 'Show Less' : 'Show More'}}-->
+<!--</a>-->
